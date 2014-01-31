@@ -1,0 +1,21 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>jCheckForm Plugin</title>
+	<script type="text/javascript" charset="utf-8" src="jquery-1.7.2.min.js"></script>
+	<script type="text/javascript" charset="utf-8" src="jCheckForm.js"></script>
+	<style>
+		.error {border:1px solid #F00;}
+	</style>
+
+</head>
+<body>
+	<form>
+		<div class="required"><input type="text" name="phone" value="" placeholder="Введите телефон" /><div class="errmsg"></div></div>
+		<div class="email"><input type="text" name="email" value="" placeholder="Введите емаил" /></div>
+		<div><textarea name="comment"></textarea></div>
+		<input type="submit" value="Отправить" />
+	</form>
+</body>
+</html>
